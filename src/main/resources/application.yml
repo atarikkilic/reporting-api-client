@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+api:
+  base-url: https://reporting.rpdpymnt.com
+
+spring:
+  application:
+    name: reporting-api-client
+  webflux:
+    base-path: /api
+
+logging:
+  level:
+    com.finhouse: DEBUG
+    org.springframework.web: INFO
+    reactor.netty.http.client: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
