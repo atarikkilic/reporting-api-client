@@ -1,0 +1,24 @@
+spring:
+  webflux:
+    base-path: /api/v3
+
+api:
+  base-url: https://sandbox-reporting.rpdpymnt.com
+  credentials:
+    email: demo@financialhouse.io
+    password: cjaiU8CV
+
+logging:
+  level:
+    com.finhouse: DEBUG
+    org.springframework.web: DEBUG
+    reactor.netty.http.client: DEBUG
+
+test:
+  timeout: 5000
+  retry:
+    max-attempts: 3
+    backoff:
+      initial-interval: 1000
+      multiplier: 2
+      max-interval: 5000
