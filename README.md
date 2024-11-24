@@ -47,7 +47,7 @@ A reactive Spring Boot application that consumes Financial House Reporting API e
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/reporting-api-client.git
+git clone https://github.com/atarikkilic/reporting-api-client.git
 cd reporting-api-client
 ```
 
