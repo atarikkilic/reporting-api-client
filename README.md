@@ -141,6 +141,7 @@ src/
 │   │           │   └── ReportService.java
 │   │           └── exception/
 │   │               └── ApiException.java
+│   │               └── GlobalExceptionHandler.java
 │   └── resources/
 │       └── application.yml
 └── test/
@@ -150,7 +151,10 @@ src/
                 ├── service/
                 ├── controller/
                 └── integration/
+
 ```
+![flowchart of the project](Flow-Chart.png)
+
 
 ## 🧪 Testing
 
